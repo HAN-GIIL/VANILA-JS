@@ -44,6 +44,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+::placeholder {
+  color: white;
+}
+
 .form input:focus,
 .js-toDoForm input:focus {
   outline: none;
