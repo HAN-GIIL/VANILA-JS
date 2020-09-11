@@ -1,0 +1,28 @@
+body {
+  background-color: gray;
+  color: #34495e;
+}
+
+h1 {
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+  color: white;
+}
+.greetings {
+  color: #34495e;
+}
+.btn {
+  cursor: pointer;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
