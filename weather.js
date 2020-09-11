@@ -16,9 +16,9 @@ function getWeather(lat, lng) {
       weather.innerText = `${temperature}°C @ ${place}`;
     });
 }
--+function saveCoords(coordsObj) {
+function saveCoords(coordsObj) {
   localStorage.setItem(COORDS, JSON.stringify(coordsObj));
-};
+}
 
 function handleGeoSuccess(position) {
   const latitude = position.coords.latitude;
