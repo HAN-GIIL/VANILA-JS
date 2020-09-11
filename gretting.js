@@ -20,7 +20,7 @@ function askForName() {
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello ${text}`;
+  greeting.innerText = `반갑습니다. ${text}님!`;
 }
 function loadName() {
   const currentUser = localStorage.getItem(USER_LS);
