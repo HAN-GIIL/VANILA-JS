@@ -3,7 +3,6 @@ const clockContainer = document.querySelector(".js-clock"),
 
 function getTime() {
   const seconds = 720*3600;
-
   seconds--;
   
   clockTitle.innerText = `${seconds/3600 < 10 ? `0${seconds/3600}` : `${seconds/3600}`}:${
